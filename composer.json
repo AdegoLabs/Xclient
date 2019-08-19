@@ -1,0 +1,31 @@
+{
+    "name": "jamescauwelier/psredis",
+    "type": "library",
+    "description": "Sentinel client for the popular php redis client",
+    "keywords": ["nosql", "redis", "predis", "sentinel"],
+    "authors": [
+        {
+            "name": "James Cauwelier",
+            "email": "james.cauwelier@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "*",
+        "workerman/workerman": "*",
+        "predis/predis": "^1.1",
+        "react/react": "*",
+        "akeneo/api-php-client": "^4.0",
+        "php-http/guzzle6-adapter": "^2.0",
+        "deepstreamhub/deepstream.io-client-php": "^1.0",
+        "colinmollenhour/credis": "^1.10",
+        "basho/riak": "^3.4",
+        "spatie/async": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xclient\\": "src/Xclient/"
+        }
+    }
+}
